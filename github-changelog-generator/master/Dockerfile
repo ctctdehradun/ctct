@@ -1,4 +1,4 @@
-FROM ruby:3.1
+FROM ruby:3.1.3-slim
 
 RUN gem install github_changelog_generator
 
