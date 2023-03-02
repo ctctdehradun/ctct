@@ -4,7 +4,7 @@ WORKDIR /tmp/php-cs-fixer
 
 RUN composer require prooph/php-cs-fixer-config
 
-FROM php:8.2.2-cli
+FROM php:8-cli
 
 COPY --from=deps /tmp/php-cs-fixer/vendor /usr/local/src/php-cs-fixer
 COPY rules.php /rules.php
