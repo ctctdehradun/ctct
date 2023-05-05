@@ -1,4 +1,4 @@
-FROM rabbitmq:3.10.18-management-alpine
+FROM rabbitmq:3.10.21-management-alpine
 
 # VAR ${VAR: -"value"} means the values may be overriden
 
